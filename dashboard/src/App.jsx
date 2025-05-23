@@ -35,7 +35,6 @@ const App = () => {
     };
     fetchUser();
   }, [isAuthenticated]);
-
   return (
     <Router>
       <Sidebar />
@@ -51,5 +50,4 @@ const App = () => {
     </Router>
   );
 };
-
 export default App;
